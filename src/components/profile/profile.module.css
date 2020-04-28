@@ -1,0 +1,94 @@
+.profile {
+  margin: 20px auto;
+  margin-bottom: 20px;
+  padding: 0;
+  padding-top: 89px;
+  background: rgb(231, 236, 242);
+  width: 428px;
+  height: 504px;
+  font-family: "Lato", sans-serif;
+}
+
+.description {
+  margin: 0 auto;
+  padding-top: 32px;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  width: 250px;
+  text-align: center;
+}
+
+.photo {
+  width: 98px;
+  height: 98px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.avatar {
+  display: block;
+  width: auto;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.stats {
+  display: flex;
+  width: 250px;
+  margin: 0 auto;
+  padding: 0;
+  padding-bottom: 89px;
+  list-style: none;
+  text-align: centre;
+}
+
+.stats li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 83px;
+  border: 1px solid rgb(231, 236, 242);
+  background-color: rgb(243, 246, 249);
+}
+
+
+.label,
+.quantity {
+  width: 83px;
+  text-align: center;
+}
+
+.label {
+  padding-top: 16px;
+  font-size: 12px;
+  color: #768696;
+  font-weight: 400;
+}
+
+.quantity {
+  padding-top: 6px;
+  padding-bottom: 20px;
+  font-size: 14px;
+  color: #122236;
+  font-weight: 900;
+}
+
+.name {
+  margin-top: 24px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #122236;
+}
+
+.tag,
+.location {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #768696;
+  font-weight: 400;
+}
+
+.location {
+  padding-bottom: 30px;
+}

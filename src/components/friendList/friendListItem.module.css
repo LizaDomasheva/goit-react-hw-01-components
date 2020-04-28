@@ -1,0 +1,30 @@
+.item {
+    margin: 20px 0;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 90px;
+    height: auto;
+    margin: 10px 20px 10px 15px;
+    border-radius: 10px;
+}
+
+.statusOnline {
+    content: "";
+    background: greenyellow;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 2rem;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.statusOfline {
+    composes: statusOnline;
+    background: rgb(245, 51, 51);
+}
